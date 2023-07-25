@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kablammo&family=Ysabeau+SC:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/90eb1c05c7.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <nav class="navbar">
+        <!-- logo -->
+        <img class="logo" src="./images/logo.jpeg" alt="Profile logo" />
+        <!-- list -->
+        <ul>
+          <li class="lists"><a class="links" href="#home">HOME</a></li>
+          <li class="lists"><a class="links" href="#about">ABOUT</a></li>
+          <li class="lists"><a class="links" href="#skills">SKILLS</a></li>
+          <li class="lists"><a class="links" href="">CONTACT</a></li>
+        </ul>
+      </nav>
+      <section id="home">
+        <!-- content -->
+        <div class="title">
+          <h1 class="title-h1">I'm Elena <span id="lastname">Richard</span></h1>
+          <p class="title-p">
+            This is my official portfolio to describe all<br />
+            Details and Work experience in Web Development
+          </p>
+          <a href="pg1.pdf" class="title-link" download>DOWNLOAD CV</a>
+        </div>
+        <!-- images -->
+        <div class="images">
+          <!-- shape -->
+          <img
+            src="./images/shadow.png"
+            alt="shadow"
+            class="imageGroup"
+            id="shape"
+          />
+          <!-- girl -->
+          <img
+            src="./images/profilephoto.png"
+            alt="image of girl"
+            class="imageGroup"
+            id="girl"
+          />
+        </div>
+      </section>
+      <!-- section -->
+      <section id="about">
+        <div class="about-head">
+          <h2>About Me</h2>
+          <span>Introduction</span>
+        </div>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="./images/girl.jpeg" alt="" />
+          </div>
+          <div class="about-details">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              libero molestias vel recusandae corporis, officiis magni mollitia
+              ratione cumque asperiores praesentium incidunt iusto. Cum omnis ea
+              architecto. Illum, expedita doloremque molestiae eos voluptatibus
+              excepturi, blanditiis quo vitae esse optio fugiat quisquam eum
+              necessitatibus veritatis iure quaerat atque ut accusantium
+              debitis?
+            </p>
+            <div class="informations">
+                <div class="info-box">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Elena Richard</span>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>85456123457</span>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>elenarichard@gmail.com</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section -->
+      <section id="skills">
+        <div class="about-head">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- skills content -->
+        <div class="skill-container">
+            <!-- for progress -->
+            <div class="progress-bar">
+                <!-- html -->
+                <div class="bar-container">
+                    <h1>HTML</h1>
+                    <span>95%</span>
+                    <div class="base-bar"></div>
+                    <div class="base-bar html-bar"></div>
+                </div>
+                <!-- css -->
+                <div class="bar-container">
+                    <h1>CSS</h1>
+                    <span>84%</span>
+                    <div class="base-bar"></div>
+                    <div class="base-bar css-bar"></div>
+                </div>
+                <!-- js -->
+                <div class="bar-container">
+                    <h1>JS</h1>
+                    <span>90%</span>
+                    <div class="base-bar"></div>
+                    <div class="base-bar js-bar"></div>
+                </div>
+                <!-- React -->
+                <div class="bar-container">
+                    <h1>React</h1>
+                    <span>87%</span>
+                    <div class="base-bar"></div>
+                    <div class="base-bar react-bar"></div>
+                </div>
+            </div>
+            <!-- for image -->
+            <div class="skill-image">
+                <img src="./images/skills.jpeg" alt="">
+            </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
